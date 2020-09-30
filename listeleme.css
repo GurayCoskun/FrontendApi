@@ -1,0 +1,79 @@
+.baslik li{
+	
+    display: inline;
+    margin: 10px;
+    position: relative;
+}
+.baslik { color: #000000; font-family: 'Lato', sans-serif; font-size: 27px; margin:auto; text-align:center;}
+.btn{
+    
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.delete-row{
+	background-color: #63b521;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+	text-align:center;
+	margin:auto; 
+}
+.form{
+    width: 400px;
+    padding: 10px;
+    border: solid thin #ddd;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 35px; 
+}
+.form input{
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+    border:none;
+    border-bottom: solid thin #ddd;
+}
+  .styled-table {
+	text-align: center;
+	margin:auto;
+	
+	border-collapse: collapse;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+background-color: #009879;
+color: #ffffff;
+text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+	margin-left=10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+		margin-left=10px;
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+		margin-left=10px;
+
+}
+.styled-table tbody tr.active-row {
+	margin-left=10px;
+
+    font-weight: bold;
+    color: #009879;
+}
+

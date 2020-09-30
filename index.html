@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Coin Site</title>
+		<link rel="stylesheet" href="listeleme.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="buyCoin.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="form" >
+			<input type="text" style="text-transform: uppercase" name="type" id="typeCoin" placeholder="Enter the type of coin you will buy" value=""><br>
+			<input type="number" name="amount" id="amountID" placeholder="Enter the amount you will buy" value=""><br>
+			<input type="button" onclick="buy()" id="buyit" value="Buy" class="btn">        
+		</div>	
+		<div class="baslik">
+			<h1 >Wallet</h1>
+			<ul>
+				<li>Rate of Profit = %</li>
+				<li id="rateProfit">0</li>
+				<li>Total Profit(or Loss) = </li>
+				<li id="totalProfit">0</li>
+			</ul>
+			<table id="wallet" class="styled-table">
+				<thead>
+				  <tr>
+					<th>Select</th>
+					<th>Type</th>
+					<th>Amount</th>
+					<th>Paid</th> 
+					<th>Earned</th> 
+					<th>Profit or Loss</th> 
+				  </tr>
+					
+				</thead>
+				<tbody>
+					<tr>
+						
+					</tr>
+				</tbody>
+
+				</table>
+				<button type="button" onclick="sell()" id="sellit" class="delete-row">SELL</button>
+			</div>
+			
+	</body>
+</html>
